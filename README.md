@@ -107,3 +107,16 @@ You can check out the GitHub Explore website [at github.com/explore](https://git
 * [GitHub community forum](https://github.community/)
 
 `Sam Kaiser was here.`
+
+## Helpful commands to experiment with
+
+`git pull` will pull the most recent remote changes
+`git push origin <branch name>` will push committed changes to your remote
+`git status` will show uncommitted changes (both staged and unstaged)
+`git add <file/directory>` adds a file or directory to the stage
+`git commit -m "<commit message>"` commits staged files and directories while applying a commit message
+`git log` lists your commit history starting with the most recent (there are flags for setting time frames)
+`git checkout <branch name>` will checkout an existing branch
+`git checkout -b <branch name>` will create a new branch
+`git checkout <commit hash>` will checkout a project in the state it was at the time of a commit hash
+`git cherry-pick <commit hash>` will apply commits from elsewhere in the Git tree to your current working branch
